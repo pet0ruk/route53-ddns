@@ -9,7 +9,7 @@ import os
 
 import boto3
 
-DEFAULT_TTL = 5 * 60  # 5 minutes
+DEFAULT_TTL = 60  # 1 minute
 logger = logging.getLogger()
 
 
